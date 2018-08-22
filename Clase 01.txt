@@ -1,0 +1,132 @@
+
+28/08 - 1er Parcialito 
+
+04/09 - 1er TP
+
+11/09 - 2do Parcialito 
+
+04/10 - 1er Parial Laboratorio
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+					
+
+					Clase Uno 
+
+ - Variables:
+
+	int - valores enteros.
+	float - valores con coma.
+	char - soporta 1 caracter.
+  
+
+ - Operadores:
+
+	+ : Suma
+	- : Resta
+	* : Multiplicación
+	/ : División
+	% : Resto
+
+
+ - Salida de datos:
+
+	En C se usa printf("Introduccion a lenguaje C");
+
+
+ - Concatenar:
+
+	printf("El resultado es: %d",resultado); 
+   
+		printf= Para imprimir dato.
+
+	Para concatenar diversas variables:
+
+		printf("Varible1: %d – Variable2: %d",var1,var2);
+ 
+	%d - Enteros.
+	%f - Decimales.
+	%c - Caracter.
+	%s - Array (Conjunto de caracteres).
+
+
+ - Obtener dato del usuario:
+
+	scanf("%d",&valorA); 
+ 
+	scanf = Para ingresar dato.
+
+	& = Para obtner la direcciòn de memoria en donde se almacena el valor solicitado.
+    
+	Sin & para obtener unicamente el valor.
+
+
+ - Definición de String en C:
+
+	Array - Cadena de caracter - char texto [128]
+
+	Se ingresa la cantidad de caracteres necesario + uno de finalización que va a ser el \0.
+
+
+ - Operaciones lógicas y control de flujo:
+
+   	0 = Falso siempre.
+	x DATO != 0 = siempre verdadero.
+    
+	* FUNCIONES: Conjunto de código encerrado que puede ser reutilizado.
+     
+	float calculoCuadrado ( float x )
+
+	{
+
+		float calculo;
+		calculo = x*x;
+
+		return calculo;
+
+	} 
+
+	return = Retorno de función = Resultado.
+
+
+
+ - Ubicación de las funciones y prototipos  
+
+  
+	Prototipo = Función declarada que no recibe nada ni devuelve nada.
+
+		void imprimoMensaje (void); // prototipo
+
+	Puede estar en cualquier parte del main.
+
+
+ - Bibliotecas = Donde se almacenan las funciones
+
+	#include <stdio.h>
+	#include <stdlib.h> 
+
+
+ - Reglas de estilo para programar:
+     
+	* Documentar todo en la cabecera de la función unicamente.
+	* Declarar de forma clara las variables y utilizar camelCase.
+	* Margenes: Tabs.
+	* Dejar en claro que devuelve la función.
+	* Las funciones se abren y cierran { }.
+	* Despúes de cada ; se ingresa "Enter".
+	
+	  
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+

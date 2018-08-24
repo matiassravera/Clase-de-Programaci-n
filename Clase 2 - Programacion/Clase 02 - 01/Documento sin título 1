@@ -1,0 +1,25 @@
+
+						Clase 02
+
+	
+	\n = Caracter de Escape o Salto de lìnea.
+	\t = Salto de espacio o TAB.
+	
+	Para validar el dato que se ingrese valor solicitado y nada màs, se puede hacer asì:
+
+	printf("\tIngrese 1er valor: ");
+	    while (scanf("%d",&valorUno)!= 1)
+	    {
+	        printf("\nError al ingresar valor solicitado");
+	        __fpurge(stdin);
+	    }
+
+	__fpurge(stdin) = Para limpiar el Buffer.
+
+	& = Te evalua toda la condiciòn de la comparaciòn.
+	&& = Te evalua la primera y si esta mal, no continua con la otra.
+
+ 	
+	* ARRAYS:
+	
+	#include <stdio_ext.h> = Se tiene que utilizar cuando se usa el __fpurge(stdin);

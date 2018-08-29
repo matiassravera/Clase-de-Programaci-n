@@ -1,0 +1,26 @@
+
+
+	Clase 03:
+
+	FUNCIONES:
+	
+	- 	Declarar funciones con nombre exacto lo que realiza.
+	-	Si no hay prototipos, por default el compilador trabaja con enteros y no con los paramentro que uno necesite.
+	-	Los prototipos se guardan en las bibliotecas (.h).
+	-	Si no esta declarado el .h , muchas veces el toma reconoce un .h de la PC, y es error.
+	- 	Cuando la funciòn se llama, pasa a ocupar lugar en una zona de memoria llamada (STACK), y cada una solo puede acceder a su espacio 			y solo tiene visibilidad en ella, a excepciòn que se conozca su direcciòn de memoria.
+	-	Variable Global =  Declarar variable fuera del Main, y todas las funciones las pueden ver, y se encuentran en otra lugar de la 			memoria. EL problema principal es que todas las funciones la pueden usar.
+	-	El STACK se reserva espacio unicamente cuando es llamada. Cuando la funciòn termina, la variable deja de ocupar el lugar de memoria 			que ocupa, ya que luego cambia de lugar.
+	- 	Existen formas de que las funciones declaren variables, que ellas conservan su valor cada vez que esa funciòn las llame. Esto es 			porque se guardan fuera del STACK.
+	-	* = Puntero  ---> Sirve para guardar la direcciòn de memoria de la variable. Se lo denomina tambien como "Operador de Indirecciòn".
+		Ej:
+			int edad;
+			int* pEdad;
+			edad=5;
+			pEdad = &edad;
+			*pEdad = 8;
+			printf ("%d",edad);
+			printf ("%d",*pEdad);
+
+
+	pedir edad. y validar.

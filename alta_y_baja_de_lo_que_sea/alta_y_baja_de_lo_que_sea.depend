@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1537467143 source:/home/alumno/Escritorio/alta_y_baja_de_lo_que_sea/Funciones.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"Funciones.h"
+
+1537466667 /home/alumno/Escritorio/alta_y_baja_de_lo_que_sea/Funciones.h
+
+1537466774 source:/home/alumno/Escritorio/alta_y_baja_de_lo_que_sea/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<strings.h>
+	"Funciones.h"
+

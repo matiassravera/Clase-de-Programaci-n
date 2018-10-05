@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1538689534 source:/home/alumno/Descargas/Parcial/Afiches.c
+
+1538689478 source:/home/alumno/Descargas/Parcial/main.c
+	<stdio.h>
+	<stdlib.h>
+

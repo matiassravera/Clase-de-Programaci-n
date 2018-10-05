@@ -1,0 +1,6 @@
+#ifndef AFICHES_H_INCLUDED
+#define AFICHES_H_INCLUDED
+
+
+
+#endif // AFICHES_H_INCLUDED

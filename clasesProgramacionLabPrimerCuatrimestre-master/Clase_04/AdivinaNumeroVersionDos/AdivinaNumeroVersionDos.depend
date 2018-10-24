@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1535674496 source:/home/alumno/clasesProgramacionLabPrimerCuatrimestre/Clase_04/AdivinaNumeroVersionDos/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn.h"
+
+1535674912 /home/alumno/clasesProgramacionLabPrimerCuatrimestre/Clase_04/AdivinaNumeroVersionDos/utn.h
+
+1535873642 source:/home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/Clase_04/AdivinaNumeroVersionDos/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn.h"
+
+1535873494 /home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/Clase_04/AdivinaNumeroVersionDos/utn.h
+
+1535873463 source:/home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/Clase_04/AdivinaNumeroVersionDos/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn.h"
+
